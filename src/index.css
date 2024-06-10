@@ -1,0 +1,65 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+.wp-block-create-block-pluginblock {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+  
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.wrapper {
+	width: 90%;
+	max-width: 500px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+input, select {
+	height: 45px;
+	border-radius: 10px;
+	font-size: 20px;
+	border: 1px solid green;
+	outline: none;
+	padding: 0 5px;
+	display: block;
+}
+
+label {
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+form {
+	width: 100%;
+	border: 1px solid blue;
+	padding: 50px 20px;
+	border-radius: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.monthly_payment {
+	font-size: 25px;
+	font-weight: 700;
+	color: orange;
+}

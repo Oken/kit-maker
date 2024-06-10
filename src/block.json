@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mortgage/calculus",
+	"version": "1.0.0",
+	"title": "Mortgage Calculus",
+	"category": "widgets",
+	"description": "Adds Mortgage Calculus UI to your page",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mortgagecalculus",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
