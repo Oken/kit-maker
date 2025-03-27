@@ -1,0 +1,17 @@
+# Site variables #
+wp-config.php
+wp-includes-copy/*
+wp-content/plugins-copy/*
+wp-content/uploads/elementor-copy/*
+wp-content/upgrade/*
+wp-content/plugins/elementor-copy/*
+wp-json/*
+
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
